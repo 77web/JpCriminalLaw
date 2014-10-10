@@ -4,8 +4,62 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a2f011739aa306c103e23929df6de0f4",
-    "packages": [],
+    "hash": "d9a3c58ad6abbe24845a92ab19edc4f7",
+    "packages": [
+        {
+            "name": "phpmentors/domain-kata",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpmentors-jp/domain-kata.git",
+                "reference": "bf3b962d9b823006b4e2765fc1a840037f24eb89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpmentors-jp/domain-kata/zipball/bf3b962d9b823006b4e2765fc1a840037f24eb89",
+                "reference": "bf3b962d9b823006b4e2765fc1a840037f24eb89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPMentors\\DomainKata\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "KUBO Atsuhiro",
+                    "email": "kubo@iteman.jp"
+                },
+                {
+                    "name": "GOTO Hidenori",
+                    "email": "hidenorigoto@gmail.com"
+                }
+            ],
+            "description": "Kata for domain models",
+            "keywords": [
+                "Domain Driven Design",
+                "architecture",
+                "ddd",
+                "design",
+                "generative programming",
+                "modeling"
+            ],
+            "time": "2014-10-09 04:51:11"
+        }
+    ],
     "packages-dev": [
         {
             "name": "phpunit/php-code-coverage",

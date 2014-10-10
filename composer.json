@@ -14,5 +14,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~3.7"
+    },
+    "require": {
+        "phpmentors/domain-kata": "v1.1.0"
     }
 }
